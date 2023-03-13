@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+  }
+  
+  h1 {
+    margin: 0 0 20px;
+  }
+  
+  #time {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+.headers-list{
+  list-style: none!important;
+}

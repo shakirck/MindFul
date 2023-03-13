@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Mindful Browsing</title>
+</head>
+<style>
+  *{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ 
+  }
+
+  body {
+    width: 500px;
+    height: 750px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .elem {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    /* border: 1px solid grey; */
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 5px;
+  }
+  .elem li{
+    padding: 10px;
+  }
+
+  .card {
+     transition: 0.3s;
+    border: 2px solid #ffffff00;
+
+    }
+
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    border: 2px solid #6390cb;
+  }
+
+  .tab-details {
+    min-width: 70%;
+    max-width: 70%;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 50px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: #393939;
+    font-weight: 700;
+  }
+  .tab-details a {
+    color: #212047;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  img{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px
+  }
+  .mindful-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mindful-container>img{
+    width: 200px;
+    background-color: white !important;
+    width: 70%;
+    
+
+  }
+  .no-bg{
+    background-color: white;
+  }
+  .time {
+    font-size: 0.8rem;
+    color: #ff623d;
+    font-weight: 500; 
+  }
+</style>
+
+<body>
+  <h1>Mindful Browsing</h1>
+  <div class="container">
+    <div class="mindful-container">
+    <img src="/logo.png" alt="">
+    <a href="https://www.buymeacoffee.com/shakirck333" target="_blank"><img class="no-bg"src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+    </div>
+    <ul class="list">
+      <li class="elem card">
+        <img src="https://placekitten.com/50/50" alt="img">
+        <div class="tab-details">
+          <div>Google</div>
+          <a href="https://google.com">http://googdafdfdasfdfadfadfdafadfdfadfdafdfdafdafdafdafdafdafadfdafdasle.com</a>
+        </div>
+        <div class="time">
+          100s
+        </div>
+      </li>
+    </ul>
+  </div>
+
+  <script src="popup.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</body>
+
+</html>
